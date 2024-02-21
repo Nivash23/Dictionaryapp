@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div id="container">
+        <div id="nav">
+            <div>Dictionary</div>
+            <div id="about" onclick="window.location='https://dictionary.cambridge.org/dictionary/english/information'">About</div>
+        </div>
+        <div id="formcontainer" >
+                <label>Word </label>
+                <input type="text" placeholder="Enter The Word..." id="word"/>
+                <button type="submit" onclick="Dictionary()">search</button>
+        </div>
+        <div id="display">
+            <p id="partsofspeech"></p>
+            <h4 id="defi"></h4>
+            <ul id="list">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

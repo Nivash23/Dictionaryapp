@@ -1,0 +1,56 @@
+#container{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(147, 149, 149);
+}
+#formcontainer{
+    margin:100px 0px 0px 500px;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    font-weight: bold;
+    font-size: 30px;
+}
+input{
+    margin: 0px 20px 0px 20px;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+}
+button{
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+button:active{
+    background-color: azure;
+    color: black;
+}
+#display{
+    margin:100px 0px 0px 450px;
+}
+#about{
+    cursor: pointer;
+}
+@media screen and (max-width:550px)
+{
+ #display{
+    margin:100px 0px 0px 50px;
+}
+#formcontainer{
+    margin:100px 0px 0px 50px;
+}
+input{
+    margin: 0px 10px 0px 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}   
+}
