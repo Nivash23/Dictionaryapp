@@ -20,6 +20,8 @@ const Dictionary = async () => {
             listItems.innerText = def.definition;
             List.appendChild(listItems);
         });
+        let Word1=document.getElementById('word');
+        Word1.value='';
 
         }
     // console.log('hello')
