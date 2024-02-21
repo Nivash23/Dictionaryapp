@@ -24,3 +24,8 @@ const Dictionary = async () => {
         }
     // console.log('hello')
 }
+const Form = document.getElementById('formcontainer');
+Form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    Dictionary();
+})
